@@ -11,13 +11,14 @@ and open the template in the editor.
     <body><form method="post">
         <input type="text" id="name" name="name"/><br/><br/><input type ="submit" id="submit" name="submit" value="Submit"/></form>
         <?php
-        include 'cong.php';
         // put your code here
+        include 'cong.php';//include connection coding
+        //form submitted
         if(isset($_POST['submit']))
         {
-            
-            echo $name = $_POST['name'];
+            echo $name = $_POST['name'];//post the name value
         }
+        //insert into the table
         $insert = mysql_query("INSERT INTO tbl_first (NAME) VALUES ('$name')");
         ?>
     </body>

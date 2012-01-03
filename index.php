@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
     </head>
-    <body>It is flower<br/>
+    <body>
         <img src="220px-Liliumbulbiferumflowertop.jpg"/>
     </body>
 </html>
